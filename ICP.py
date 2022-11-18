@@ -12,7 +12,6 @@ target = o3d.io.read_point_cloud(demo_icp_pcds.paths[1])
 kitti_source = o3d.io.read_point_cloud('./Task2/kitti_frame1.pcd')
 kitti_target = o3d.io.read_point_cloud('./Task2/kitti_frame2.pcd')
 
-# Write your code here
 
 def findCorrespondances(src,dst):
 
